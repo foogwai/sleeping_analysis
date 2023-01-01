@@ -11,7 +11,9 @@ code for master thesis
 - cmu_total_plot.py: Plot the different statistical complexity between stages(Figure 7 in paper).
 - ire_we_plot.py: plot the $\Delta C_\mu$ and $\Delta \Xi$ color map(Figure 8 in paper).  
 - temporal_asymmetry_plot.py: plot the crypticity and microscopic irreversibility difference (Figure 9 in paper)
-
+- lzc.py: compute complexity measures LZc, code from Schartner et al. - 2015.
+- lze_plot.py: plot Lempel-Ziv complexity score for all participants in different sleeping stage, Figure 5 in paper.
+  
 ## bash scripts
 
 - alpha.txt: required file for generate_emfile.sh.
@@ -21,7 +23,7 @@ code for master thesis
 - fixdelimiter.sh: converts all ';' delimiters in the *_state_series to ',' in forward-time machine CSSR file.
 - fixdelimiter_rev.sh: converts all ';' delimiters in the *_state_series to ',' in reversed-time machine CSSR file.
 
-## Matlab functions
+## Matlab functions list
 
 - fa_hmm_sparse.m: probability of observing the given sequence, required for gradle_f_m.m.
 - gradle_f_m.m: Calculate the rate of KL divergence between any forward and backward machines.
